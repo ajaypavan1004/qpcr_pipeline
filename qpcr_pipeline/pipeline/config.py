@@ -20,7 +20,7 @@ PROBE_MIN_SIZE      = 22
 PROBE_OPT_SIZE      = 25
 PROBE_MAX_SIZE      = 29
 
-PROBE_TM_DELTA_MIN  = 5.0        # probe Tm must be this much ABOVE primer Tm
+PROBE_TM_DELTA_MIN  = 4.9        # probe Tm must be this much ABOVE primer Tm
 PROBE_TM_DELTA_MAX  = 10.0
 
 PROBE_MIN_GC        = 40.0
