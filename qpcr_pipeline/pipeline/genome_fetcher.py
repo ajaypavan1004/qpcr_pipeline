@@ -82,8 +82,12 @@ def fetch_sequences(
         logger.info("Fetching sequences: %s", id_str)
         try:
             handle = Entrez.efetch(db=db, id=id_str, rettype="fasta", retmode="text")
-            for rec in SeqIO.parse(handle, "fasta"):
+            for rec in SeqIO.parse(handle, "fasta-blast"):
                 if len(rec.seq) > 0:
+                    # Extract proper accession from full FASTA description
+                    # e.g. "NZ_CP058395.1 Gardnerella vaginalis..." -> "NZ_CP058395.1"
+                    accession = rec.description.split()[0] if rec.description else rec.id
+                    rec.id = accession
                     records.append(rec)
                     logger.info("  Fetched: %s  len=%d", rec.id, len(rec.seq))
             handle.close()
