@@ -22,6 +22,18 @@ Automated pipeline for designing and validating qPCR primer/probe sets for any t
 
 ## Install
 
+## Quick Setup
+
+```bash
+bash setup.sh
+```
+
+Handles everything automatically — detects your OS, installs BLAST+, installs Python dependencies, creates required directories.
+
+---
+
+### Manual Setup
+
 ### 1. BLAST+ (system dependency — required)
 
 BLAST+ is a compiled binary, not a Python package, so it must be installed separately.
