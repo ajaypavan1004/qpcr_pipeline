@@ -197,11 +197,11 @@ def write_txt(
     lines.append(f"BLAST-validated            : {sum(1 for ps in primer_sets if ps.blast_pass)}")
     lines.append("")
 
-    for ps in primer_sets:
+    for rank, ps in enumerate(primer_sets, start=1):
         blast_ok = ps.blast_pass if ps.blast_pass is not None else True
         status = "✓ PASS" if (ps.passed_constraints and blast_ok) else "✗ FAIL"
         lines.append(f"{'─'*70}")
-        lines.append(f"  Pair #{ps.pair_index}  {status}  |  ROI {ps.roi.record_id}:{ps.roi.start}-{ps.roi.end}")
+        lines.append(f"  Rank #{rank}  (P3 pair #{ps.pair_index})  {status}  |  ROI {ps.roi.record_id}:{ps.roi.start}-{ps.roi.end}")
         lines.append(f"  ROI uniqueness score: {ps.roi.uniqueness_score:.3f}")
         lines.append("")
         lines.append(f"  FWD  5'-{ps.fwd_seq}-3'")
