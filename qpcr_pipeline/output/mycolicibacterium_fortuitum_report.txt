@@ -1,0 +1,557 @@
+======================================================================
+  qPCR Primer/Probe Pipeline Report
+  Target: Mycolicibacterium fortuitum
+  Generated: 2026-05-08 08:59 UTC
+======================================================================
+
+Total primer sets designed : 25
+Passed ALL constraints     : 1
+BLAST-validated            : 5
+
+──────────────────────────────────────────────────────────────────────
+  Rank #1  (P3 pair #2)  ✓ PASS  |  ROI NZ_CP144469.1:13000-13500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ACGAGACCCGAAATCAGCTG-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.0 kcal/mol
+
+  REV  5'-ATGTCGGTCCTGTCATCACG-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.0 kcal/mol
+
+  PRB  5'-ACGACCAGCTCATGACGCGCCGGTT-3'
+       Tm=66.7°C  GC=64.0%  len=25nt  self-dimer ΔG=-4.0 kcal/mol
+       ΔTm vs primers = +6.7°C
+
+  Amplicon size : 157 nt
+  P3 penalty    : 0.2821
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    REV top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    PRB top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+
+──────────────────────────────────────────────────────────────────────
+  Rank #2  (P3 pair #0)  ✗ FAIL  |  ROI NZ_CP144469.1:28100-28600
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCGTTCGACAAAGACCCGTA-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.8 kcal/mol
+
+  REV  5'-GGGTCGTTTCCACCAGGATT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.0 kcal/mol
+
+  PRB  5'-GAACCCCTTTGCACCGTGCCGACGT-3'
+       Tm=65.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-7.3 kcal/mol
+       ΔTm vs primers = +5.6°C
+
+  Amplicon size : 196 nt
+  P3 penalty    : 0.0770
+  Constraint issues:
+    • PRB self-dimer ΔG=-7.3 kcal/mol (threshold -6.0)
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    REV top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    PRB top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+
+──────────────────────────────────────────────────────────────────────
+  Rank #3  (P3 pair #0)  ✗ FAIL  |  ROI NZ_CP144469.1:28400-28900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AACAAAGGGCCGTGGATCAT-3'
+       Tm=60.0°C  GC=50.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-CTTCGACGTCGTCTGGGTAG-3'
+       Tm=59.9°C  GC=60.0%  len=20nt  self-dimer ΔG=-10.5 kcal/mol
+
+  PRB  5'-TGATTGCCGCCGCGGTCGTGTTGGT-3'
+       Tm=67.3°C  GC=64.0%  len=25nt  self-dimer ΔG=-9.8 kcal/mol
+       ΔTm vs primers = +7.4°C
+
+  Amplicon size : 171 nt
+  P3 penalty    : 0.1362
+  Constraint issues:
+    • REV self-dimer ΔG=-10.5 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-9.8 kcal/mol (threshold -6.0)
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    REV top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    PRB top hits:
+      ✓ [1] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+      ✓ [2] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=1.4e-06
+
+──────────────────────────────────────────────────────────────────────
+  Rank #4  (P3 pair #0)  ✗ FAIL  |  ROI NZ_CP144469.1:27800-28300
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GTCCTCACCTGGTGATCAGC-3'
+       Tm=60.1°C  GC=60.0%  len=20nt  self-dimer ΔG=-9.1 kcal/mol
+
+  REV  5'-TACGGGTCTTTGTCGAACGG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.2 kcal/mol
+
+  PRB  5'-TTAGGGTTGTGCGGGCTGTCGGGAGCA-3'
+       Tm=67.2°C  GC=63.0%  len=27nt  self-dimer ΔG=-3.3 kcal/mol
+       ΔTm vs primers = +7.1°C
+
+  Amplicon size : 138 nt
+  P3 penalty    : 0.1472
+  Constraint issues:
+    • FWD self-dimer ΔG=-9.1 kcal/mol (threshold -6.0)
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    REV top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    PRB top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=9.7e-08
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=9.7e-08
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=9.7e-08
+
+──────────────────────────────────────────────────────────────────────
+  Rank #5  (P3 pair #1)  ✗ FAIL  |  ROI NZ_CP144469.1:27800-28300
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CGTCCTCACCTGGTGATCAG-3'
+       Tm=59.8°C  GC=60.0%  len=20nt  self-dimer ΔG=-9.1 kcal/mol
+
+  REV  5'-TACGGGTCTTTGTCGAACGG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.2 kcal/mol
+
+  PRB  5'-TTAGGGTTGTGCGGGCTGTCGGGAGCA-3'
+       Tm=67.2°C  GC=63.0%  len=27nt  self-dimer ΔG=-3.3 kcal/mol
+       ΔTm vs primers = +7.2°C
+
+  Amplicon size : 139 nt
+  P3 penalty    : 0.2136
+  Constraint issues:
+    • FWD self-dimer ΔG=-9.1 kcal/mol (threshold -6.0)
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    REV top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=6.6e-04
+    PRB top hits:
+      ✓ [1] NZ_AP025518.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=9.7e-08
+      ✓ [2] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=9.7e-08
+      ✓ [3] NZ_CP144469.1 Mycolicibacterium fortuitum subsp. f id=100.0% e=9.7e-08
+
+──────────────────────────────────────────────────────────────────────
+  Rank #6  (P3 pair #0)  ✗ FAIL  |  ROI NZ_CP144469.1:13000-13500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ACGAGACCCGAAATCAGCTG-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.0 kcal/mol
+
+  REV  5'-GTCCTGTCATCACGCATCCA-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.3 kcal/mol
+
+  PRB  5'-AACACGACCAGCTCATGACGCGCCG-3'
+       Tm=65.7°C  GC=64.0%  len=25nt  self-dimer ΔG=-6.3 kcal/mol
+       ΔTm vs primers = +5.6°C
+
+  Amplicon size : 151 nt
+  P3 penalty    : 0.2168
+  Constraint issues:
+    • PRB self-dimer ΔG=-6.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #7  (P3 pair #1)  ✗ FAIL  |  ROI NZ_CP144469.1:28400-28900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AACAAAGGGCCGTGGATCAT-3'
+       Tm=60.0°C  GC=50.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-GACTCTTCGACGTCGTCTGG-3'
+       Tm=60.2°C  GC=60.0%  len=20nt  self-dimer ΔG=-10.5 kcal/mol
+
+  PRB  5'-TGATTGCCGCCGCGGTCGTGTTGGT-3'
+       Tm=67.3°C  GC=64.0%  len=25nt  self-dimer ΔG=-9.8 kcal/mol
+       ΔTm vs primers = +7.3°C
+
+  Amplicon size : 175 nt
+  P3 penalty    : 0.2188
+  Constraint issues:
+    • REV self-dimer ΔG=-10.5 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-9.8 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #8  (P3 pair #2)  ✗ FAIL  |  ROI NZ_CP144469.1:28400-28900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AACAAAGGGCCGTGGATCAT-3'
+       Tm=60.0°C  GC=50.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-GGACTCTTCGACGTCGTCTG-3'
+       Tm=60.2°C  GC=60.0%  len=20nt  self-dimer ΔG=-10.5 kcal/mol
+
+  PRB  5'-TGATTGCCGCCGCGGTCGTGTTGGT-3'
+       Tm=67.3°C  GC=64.0%  len=25nt  self-dimer ΔG=-9.8 kcal/mol
+       ΔTm vs primers = +7.3°C
+
+  Amplicon size : 176 nt
+  P3 penalty    : 0.2188
+  Constraint issues:
+    • REV self-dimer ΔG=-10.5 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-9.8 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #9  (P3 pair #2)  ✗ FAIL  |  ROI NZ_CP144469.1:27800-28300
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GGTGATCAGCAGGGTTAGGG-3'
+       Tm=59.8°C  GC=60.0%  len=20nt  self-dimer ΔG=-7.1 kcal/mol
+
+  REV  5'-TACGGGTCTTTGTCGAACGG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.2 kcal/mol
+
+  PRB  5'-CCGGAGGGGGTCATTTGCGCTGTCCTGT-3'
+       Tm=67.4°C  GC=64.3%  len=28nt  self-dimer ΔG=-6.4 kcal/mol
+       ΔTm vs primers = +7.5°C
+
+  Amplicon size : 128 nt
+  P3 penalty    : 0.2206
+  Constraint issues:
+    • FWD self-dimer ΔG=-7.1 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-6.4 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #10  (P3 pair #3)  ✗ FAIL  |  ROI NZ_CP144469.1:27800-28300
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GTTCTCGGAACTGCGACTCA-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.7 kcal/mol
+
+  REV  5'-ACCGGGATAGAAGTAGGCGA-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.1 kcal/mol
+
+  PRB  5'-TCGCGGCCTTTGTGTTTGGGAGCGC-3'
+       Tm=66.4°C  GC=64.0%  len=25nt  self-dimer ΔG=-6.1 kcal/mol
+       ΔTm vs primers = +6.4°C
+
+  Amplicon size : 197 nt
+  P3 penalty    : 0.2239
+  Constraint issues:
+    • REV self-dimer ΔG=-6.1 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-6.1 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #11  (P3 pair #1)  ✗ FAIL  |  ROI NZ_CP144469.1:13000-13500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ACGAGACCCGAAATCAGCTG-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.0 kcal/mol
+
+  REV  5'-GTCGTGTTCAGCTCCGAGAT-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.0 kcal/mol
+
+  PRB  5'-AGGCCAACGGAGAGTGAGTCGGGTGCA-3'
+       Tm=66.7°C  GC=63.0%  len=27nt  self-dimer ΔG=-6.1 kcal/mol
+       ΔTm vs primers = +6.7°C
+
+  Amplicon size : 112 nt
+  P3 penalty    : 0.2801
+  Constraint issues:
+    • PRB self-dimer ΔG=-6.1 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #12  (P3 pair #3)  ✗ FAIL  |  ROI NZ_CP144469.1:13000-13500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GAGTGAGTCGGGTGCAGATC-3'
+       Tm=60.2°C  GC=60.0%  len=20nt  self-dimer ΔG=-3.3 kcal/mol
+
+  REV  5'-GTCCTGTCATCACGCATCCA-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.3 kcal/mol
+
+  PRB  5'-AACACGACCAGCTCATGACGCGCCG-3'
+       Tm=65.7°C  GC=64.0%  len=25nt  self-dimer ΔG=-6.3 kcal/mol
+       ΔTm vs primers = +5.6°C
+
+  Amplicon size : 95 nt
+  P3 penalty    : 0.2873
+  Constraint issues:
+    • PRB self-dimer ΔG=-6.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #13  (P3 pair #4)  ✗ FAIL  |  ROI NZ_CP144469.1:13000-13500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ACGAGACCCGAAATCAGCTG-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.0 kcal/mol
+
+  REV  5'-TCAGCTCCGAGATCTTTGCG-3'
+       Tm=60.2°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.1 kcal/mol
+
+  PRB  5'-AGGCCAACGGAGAGTGAGTCGGGTGCA-3'
+       Tm=66.7°C  GC=63.0%  len=27nt  self-dimer ΔG=-6.1 kcal/mol
+       ΔTm vs primers = +6.5°C
+
+  Amplicon size : 105 nt
+  P3 penalty    : 0.2877
+  Constraint issues:
+    • PRB self-dimer ΔG=-6.1 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #14  (P3 pair #4)  ✗ FAIL  |  ROI NZ_CP144469.1:27800-28300
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GTTCTCGGAACTGCGACTCA-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.7 kcal/mol
+
+  REV  5'-CCGGCTCCACTCAATGTGTA-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.6 kcal/mol
+
+  PRB  5'-TCGCGGCCTTTGTGTTTGGGAGCGC-3'
+       Tm=66.4°C  GC=64.0%  len=25nt  self-dimer ΔG=-6.1 kcal/mol
+       ΔTm vs primers = +6.5°C
+
+  Amplicon size : 167 nt
+  P3 penalty    : 0.2886
+  Constraint issues:
+    • PRB self-dimer ΔG=-6.1 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #15  (P3 pair #3)  ✗ FAIL  |  ROI NZ_CP144469.1:28400-28900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AACAAAGGGCCGTGGATCAT-3'
+       Tm=60.0°C  GC=50.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-GCCACCCAGATTGACTGCTA-3'
+       Tm=59.7°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.9 kcal/mol
+
+  PRB  5'-TGATTGCCGCCGCGGTCGTGTTGGT-3'
+       Tm=67.3°C  GC=64.0%  len=25nt  self-dimer ΔG=-9.8 kcal/mol
+       ΔTm vs primers = +7.5°C
+
+  Amplicon size : 90 nt
+  P3 penalty    : 0.2927
+  Constraint issues:
+    • PRB self-dimer ΔG=-9.8 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #16  (P3 pair #0)  ✗ FAIL  |  ROI NZ_CP144469.1:12400-12900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CGACGTCTTCCATCAGGTGT-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.4 kcal/mol
+
+  REV  5'-GCCTCGAGCTGTACCTTCTC-3'
+       Tm=59.9°C  GC=60.0%  len=20nt  self-dimer ΔG=-5.7 kcal/mol
+
+  PRB  5'-CGTGGTTGCAGCGCGCGAACGATCA-3'
+       Tm=66.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-11.3 kcal/mol
+       ΔTm vs primers = +6.7°C
+
+  Amplicon size : 153 nt
+  P3 penalty    : 0.3455
+  Constraint issues:
+    • FWD self-dimer ΔG=-6.4 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-11.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #17  (P3 pair #4)  ✗ FAIL  |  ROI NZ_CP144469.1:28400-28900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GACAACAACAAAGGGCCGTG-3'
+       Tm=60.2°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.6 kcal/mol
+
+  REV  5'-CTTCGACGTCGTCTGGGTAG-3'
+       Tm=59.9°C  GC=60.0%  len=20nt  self-dimer ΔG=-10.5 kcal/mol
+
+  PRB  5'-TGATTGCCGCCGCGGTCGTGTTGGT-3'
+       Tm=67.3°C  GC=64.0%  len=25nt  self-dimer ΔG=-9.8 kcal/mol
+       ΔTm vs primers = +7.3°C
+
+  Amplicon size : 177 nt
+  P3 penalty    : 0.3455
+  Constraint issues:
+    • REV self-dimer ΔG=-10.5 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-9.8 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #18  (P3 pair #1)  ✗ FAIL  |  ROI NZ_CP144469.1:12400-12900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CGACGTCTTCCATCAGGTGT-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.4 kcal/mol
+
+  REV  5'-GTTGAACACATCGACAGCGG-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.3 kcal/mol
+
+  PRB  5'-CGTGGTTGCAGCGCGCGAACGATCA-3'
+       Tm=66.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-11.3 kcal/mol
+       ΔTm vs primers = +6.8°C
+
+  Amplicon size : 130 nt
+  P3 penalty    : 0.4077
+  Constraint issues:
+    • FWD self-dimer ΔG=-6.4 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-11.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #19  (P3 pair #2)  ✗ FAIL  |  ROI NZ_CP144469.1:12400-12900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CGACGTCTTCCATCAGGTGT-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-6.4 kcal/mol
+
+  REV  5'-GGCGTTGAACACATCGACAG-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.2 kcal/mol
+
+  PRB  5'-CGTGGTTGCAGCGCGCGAACGATCA-3'
+       Tm=66.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-11.3 kcal/mol
+       ΔTm vs primers = +6.8°C
+
+  Amplicon size : 133 nt
+  P3 penalty    : 0.4077
+  Constraint issues:
+    • FWD self-dimer ΔG=-6.4 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-11.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #20  (P3 pair #3)  ✗ FAIL  |  ROI NZ_CP144469.1:12400-12900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GAGAAGGTACAGCTCGAGGC-3'
+       Tm=59.9°C  GC=60.0%  len=20nt  self-dimer ΔG=-6.7 kcal/mol
+
+  REV  5'-ACCTTTCCTCGCATTGTCGA-3'
+       Tm=59.7°C  GC=50.0%  len=20nt  self-dimer ΔG=-1.2 kcal/mol
+
+  PRB  5'-TCAGGGTTACAGCTGGCCACGCCCA-3'
+       Tm=65.8°C  GC=64.0%  len=25nt  self-dimer ΔG=-7.6 kcal/mol
+       ΔTm vs primers = +6.0°C
+
+  Amplicon size : 159 nt
+  P3 penalty    : 0.4220
+  Constraint issues:
+    • FWD self-dimer ΔG=-6.7 kcal/mol (threshold -6.0)
+    • PRB self-dimer ΔG=-7.6 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #21  (P3 pair #4)  ✗ FAIL  |  ROI NZ_CP144469.1:12400-12900
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ACGTCTTCCATCAGGTGTGC-3'
+       Tm=60.3°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.4 kcal/mol
+
+  REV  5'-GCCTCGAGCTGTACCTTCTC-3'
+       Tm=59.9°C  GC=60.0%  len=20nt  self-dimer ΔG=-5.7 kcal/mol
+
+  PRB  5'-CGTGGTTGCAGCGCGCGAACGATCA-3'
+       Tm=66.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-11.3 kcal/mol
+       ΔTm vs primers = +6.5°C
+
+  Amplicon size : 151 nt
+  P3 penalty    : 0.4223
+  Constraint issues:
+    • PRB self-dimer ΔG=-11.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #22  (P3 pair #1)  ✗ FAIL  |  ROI NZ_CP144469.1:28100-28600
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ATCCGTTCGACAAAGACCCG-3'
+       Tm=60.4°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.8 kcal/mol
+
+  REV  5'-GGGTCGTTTCCACCAGGATT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.0 kcal/mol
+
+  PRB  5'-GAACCCCTTTGCACCGTGCCGACGT-3'
+       Tm=65.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-7.3 kcal/mol
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 198 nt
+  P3 penalty    : 0.4272
+  Constraint issues:
+    • PRB self-dimer ΔG=-7.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #23  (P3 pair #2)  ✗ FAIL  |  ROI NZ_CP144469.1:28100-28600
+  ROI uniqueness score: 1.000
+
+  FWD  5'-ACAAAGACCCGTATGCGTCC-3'
+       Tm=60.4°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.2 kcal/mol
+
+  REV  5'-GGGTCGTTTCCACCAGGATT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.0 kcal/mol
+
+  PRB  5'-GAACCCCTTTGCACCGTGCCGACGT-3'
+       Tm=65.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-7.3 kcal/mol
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 189 nt
+  P3 penalty    : 0.4285
+  Constraint issues:
+    • PRB self-dimer ΔG=-7.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #24  (P3 pair #3)  ✗ FAIL  |  ROI NZ_CP144469.1:28100-28600
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GCATCCGTTCGACAAAGACC-3'
+       Tm=59.6°C  GC=55.0%  len=20nt  self-dimer ΔG=-2.8 kcal/mol
+
+  REV  5'-GGGTCGTTTCCACCAGGATT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.0 kcal/mol
+
+  PRB  5'-GAACCCCTTTGCACCGTGCCGACGT-3'
+       Tm=65.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-7.3 kcal/mol
+       ΔTm vs primers = +5.9°C
+
+  Amplicon size : 200 nt
+  P3 penalty    : 0.4804
+  Constraint issues:
+    • PRB self-dimer ΔG=-7.3 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #25  (P3 pair #4)  ✗ FAIL  |  ROI NZ_CP144469.1:28100-28600
+  ROI uniqueness score: 1.000
+
+  FWD  5'-TCGACAAAGACCCGTATGCG-3'
+       Tm=60.5°C  GC=55.0%  len=20nt  self-dimer ΔG=-3.5 kcal/mol
+
+  REV  5'-GGGTCGTTTCCACCAGGATT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.0 kcal/mol
+
+  PRB  5'-GAACCCCTTTGCACCGTGCCGACGT-3'
+       Tm=65.6°C  GC=64.0%  len=25nt  self-dimer ΔG=-7.3 kcal/mol
+       ΔTm vs primers = +5.4°C
+
+  Amplicon size : 192 nt
+  P3 penalty    : 0.4949
+  Constraint issues:
+    • PRB self-dimer ΔG=-7.3 kcal/mol (threshold -6.0)

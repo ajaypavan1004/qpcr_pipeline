@@ -1,0 +1,2662 @@
+{
+  "pipeline": "qpcr_primer_pipeline",
+  "version": "1.0.0",
+  "timestamp": "2026-05-08T08:59:03.405666Z",
+  "target_organism": "Mycolicibacterium fortuitum",
+  "n_sets": 25,
+  "primer_sets": [
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 13000,
+        "end": 13500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ACGAGACCCGAAATCAGCTG",
+          "tm": 60.11,
+          "gc": 55.0,
+          "length": 20,
+          "start": 299
+        },
+        "reverse": {
+          "sequence": "ATGTCGGTCCTGTCATCACG",
+          "tm": 59.83,
+          "gc": 55.0,
+          "length": 20,
+          "start": 455
+        },
+        "probe": {
+          "sequence": "ACGACCAGCTCATGACGCGCCGGTT",
+          "tm": 66.68,
+          "gc": 64.0,
+          "length": 25,
+          "start": 406
+        }
+      },
+      "amplicon_size": 157,
+      "primer3_penalty": 0.2821,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "20",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "7",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 94.7,
+              "coverage": 95.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "17",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "15",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "8",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 94.4,
+              "coverage": 90.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "25",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 65.0,
+              "evalue": 9.97377,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "22",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 94.7,
+              "coverage": 95.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "21",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 94.7,
+              "coverage": 95.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "19",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 94.7,
+              "coverage": 95.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "14",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "6",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "24",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 65.0,
+              "evalue": 9.97377,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.00132633,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.00132633,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "25",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 68.0,
+              "evalue": 0.0818271,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "24",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 68.0,
+              "evalue": 0.0818271,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "12",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 68.0,
+              "evalue": 0.0818271,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "7",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 68.0,
+              "evalue": 0.0818271,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28100,
+        "end": 28600,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCGTTCGACAAAGACCCGTA",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 86
+        },
+        "reverse": {
+          "sequence": "GGGTCGTTTCCACCAGGATT",
+          "tm": 59.96,
+          "gc": 55.0,
+          "length": 20,
+          "start": 281
+        },
+        "probe": {
+          "sequence": "GAACCCCTTTGCACCGTGCCGACGT",
+          "tm": 65.64,
+          "gc": 64.0,
+          "length": 25,
+          "start": 189
+        }
+      },
+      "amplicon_size": 196,
+      "primer3_penalty": 0.077,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-7.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "15",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "18",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "23",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "20",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "25",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "23",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "12",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "7",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 95.8,
+              "coverage": 96.0,
+              "evalue": 0.00132633,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "15",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 64.0,
+              "evalue": 0.323329,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "11",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 64.0,
+              "evalue": 0.323329,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "20",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 60.0,
+              "evalue": 1.2776,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "13",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 60.0,
+              "evalue": 1.2776,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28400,
+        "end": 28900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AACAAAGGGCCGTGGATCAT",
+          "tm": 59.96,
+          "gc": 50.0,
+          "length": 20,
+          "start": 187
+        },
+        "reverse": {
+          "sequence": "CTTCGACGTCGTCTGGGTAG",
+          "tm": 59.9,
+          "gc": 60.0,
+          "length": 20,
+          "start": 357
+        },
+        "probe": {
+          "sequence": "TGATTGCCGCCGCGGTCGTGTTGGT",
+          "tm": 67.33,
+          "gc": 64.0,
+          "length": 25,
+          "start": 215
+        }
+      },
+      "amplicon_size": 171,
+      "primer3_penalty": 0.1362,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "REV self-dimer \u0394G=-10.5 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-9.8 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "8",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "7",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "10",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "22",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 65.0,
+              "evalue": 9.97377,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "22",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "18",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "15",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "9",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 1.37693e-06,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 96.0,
+              "coverage": 100.0,
+              "evalue": 0.000335664,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "7",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 72.0,
+              "evalue": 0.0207085,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "11",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 68.0,
+              "evalue": 0.0818271,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "25",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 64.0,
+              "evalue": 0.323329,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "20",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 64.0,
+              "evalue": 0.323329,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 27800,
+        "end": 28300,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GTCCTCACCTGGTGATCAGC",
+          "tm": 60.11,
+          "gc": 60.0,
+          "length": 20,
+          "start": 268
+        },
+        "reverse": {
+          "sequence": "TACGGGTCTTTGTCGAACGG",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 405
+        },
+        "probe": {
+          "sequence": "TTAGGGTTGTGCGGGCTGTCGGGAGCA",
+          "tm": 67.16,
+          "gc": 63.0,
+          "length": 27,
+          "start": 292
+        }
+      },
+      "amplicon_size": 138,
+      "primer3_penalty": 0.1472,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-9.1 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 85.0,
+              "evalue": 0.0409136,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "19",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "16",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "11",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "8",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "15",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "18",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "23",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "20",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "16",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 59.3,
+              "evalue": 0.355662,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "9",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 59.3,
+              "evalue": 0.355662,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "21",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 55.6,
+              "evalue": 1.40535,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "19",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 55.6,
+              "evalue": 1.40535,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 27800,
+        "end": 28300,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CGTCCTCACCTGGTGATCAG",
+          "tm": 59.83,
+          "gc": 60.0,
+          "length": 20,
+          "start": 267
+        },
+        "reverse": {
+          "sequence": "TACGGGTCTTTGTCGAACGG",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 405
+        },
+        "probe": {
+          "sequence": "TTAGGGTTGTGCGGGCTGTCGGGAGCA",
+          "tm": 67.16,
+          "gc": 63.0,
+          "length": 27,
+          "start": 292
+        }
+      },
+      "amplicon_size": 139,
+      "primer3_penalty": 0.2136,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-9.1 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "19",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "11",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "16",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "13",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 70.0,
+              "evalue": 2.52413,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 0.000663167,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "15",
+              "organism": "NZ_CP074376.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 80.0,
+              "evalue": 0.161665,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "18",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "23",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "20",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 75.0,
+              "evalue": 0.638798,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "5",
+              "organism": "NZ_AP025518.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "4",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "3",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "2",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "1",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "0",
+              "organism": "NZ_CP144469.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 100.0,
+              "evalue": 9.70084e-08,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "16",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 59.3,
+              "evalue": 0.355662,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "9",
+              "organism": "NZ_AP022570.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 59.3,
+              "evalue": 0.355662,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "21",
+              "organism": "NZ_AP043663.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 55.6,
+              "evalue": 1.40535,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "19",
+              "organism": "NZ_CP081000.1 Mycolicibacterium",
+              "identity": 100.0,
+              "coverage": 55.6,
+              "evalue": 1.40535,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 13000,
+        "end": 13500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ACGAGACCCGAAATCAGCTG",
+          "tm": 60.11,
+          "gc": 55.0,
+          "length": 20,
+          "start": 299
+        },
+        "reverse": {
+          "sequence": "GTCCTGTCATCACGCATCCA",
+          "tm": 60.11,
+          "gc": 55.0,
+          "length": 20,
+          "start": 449
+        },
+        "probe": {
+          "sequence": "AACACGACCAGCTCATGACGCGCCG",
+          "tm": 65.71,
+          "gc": 64.0,
+          "length": 25,
+          "start": 403
+        }
+      },
+      "amplicon_size": 151,
+      "primer3_penalty": 0.2168,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-6.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28400,
+        "end": 28900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AACAAAGGGCCGTGGATCAT",
+          "tm": 59.96,
+          "gc": 50.0,
+          "length": 20,
+          "start": 187
+        },
+        "reverse": {
+          "sequence": "GACTCTTCGACGTCGTCTGG",
+          "tm": 60.18,
+          "gc": 60.0,
+          "length": 20,
+          "start": 361
+        },
+        "probe": {
+          "sequence": "TGATTGCCGCCGCGGTCGTGTTGGT",
+          "tm": 67.33,
+          "gc": 64.0,
+          "length": 25,
+          "start": 215
+        }
+      },
+      "amplicon_size": 175,
+      "primer3_penalty": 0.2188,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "REV self-dimer \u0394G=-10.5 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-9.8 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28400,
+        "end": 28900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AACAAAGGGCCGTGGATCAT",
+          "tm": 59.96,
+          "gc": 50.0,
+          "length": 20,
+          "start": 187
+        },
+        "reverse": {
+          "sequence": "GGACTCTTCGACGTCGTCTG",
+          "tm": 60.18,
+          "gc": 60.0,
+          "length": 20,
+          "start": 362
+        },
+        "probe": {
+          "sequence": "TGATTGCCGCCGCGGTCGTGTTGGT",
+          "tm": 67.33,
+          "gc": 64.0,
+          "length": 25,
+          "start": 215
+        }
+      },
+      "amplicon_size": 176,
+      "primer3_penalty": 0.2188,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "REV self-dimer \u0394G=-10.5 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-9.8 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 27800,
+        "end": 28300,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GGTGATCAGCAGGGTTAGGG",
+          "tm": 59.82,
+          "gc": 60.0,
+          "length": 20,
+          "start": 278
+        },
+        "reverse": {
+          "sequence": "TACGGGTCTTTGTCGAACGG",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 405
+        },
+        "probe": {
+          "sequence": "CCGGAGGGGGTCATTTGCGCTGTCCTGT",
+          "tm": 67.4,
+          "gc": 64.3,
+          "length": 28,
+          "start": 327
+        }
+      },
+      "amplicon_size": 128,
+      "primer3_penalty": 0.2206,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-7.1 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-6.4 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 27800,
+        "end": 28300,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GTTCTCGGAACTGCGACTCA",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 16
+        },
+        "reverse": {
+          "sequence": "ACCGGGATAGAAGTAGGCGA",
+          "tm": 59.82,
+          "gc": 55.0,
+          "length": 20,
+          "start": 212
+        },
+        "probe": {
+          "sequence": "TCGCGGCCTTTGTGTTTGGGAGCGC",
+          "tm": 66.37,
+          "gc": 64.0,
+          "length": 25,
+          "start": 58
+        }
+      },
+      "amplicon_size": 197,
+      "primer3_penalty": 0.2239,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "REV self-dimer \u0394G=-6.1 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-6.1 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 13000,
+        "end": 13500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ACGAGACCCGAAATCAGCTG",
+          "tm": 60.11,
+          "gc": 55.0,
+          "length": 20,
+          "start": 299
+        },
+        "reverse": {
+          "sequence": "GTCGTGTTCAGCTCCGAGAT",
+          "tm": 59.83,
+          "gc": 55.0,
+          "length": 20,
+          "start": 410
+        },
+        "probe": {
+          "sequence": "AGGCCAACGGAGAGTGAGTCGGGTGCA",
+          "tm": 66.68,
+          "gc": 63.0,
+          "length": 27,
+          "start": 344
+        }
+      },
+      "amplicon_size": 112,
+      "primer3_penalty": 0.2801,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-6.1 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 13000,
+        "end": 13500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GAGTGAGTCGGGTGCAGATC",
+          "tm": 60.18,
+          "gc": 60.0,
+          "length": 20,
+          "start": 355
+        },
+        "reverse": {
+          "sequence": "GTCCTGTCATCACGCATCCA",
+          "tm": 60.11,
+          "gc": 55.0,
+          "length": 20,
+          "start": 449
+        },
+        "probe": {
+          "sequence": "AACACGACCAGCTCATGACGCGCCG",
+          "tm": 65.71,
+          "gc": 64.0,
+          "length": 25,
+          "start": 403
+        }
+      },
+      "amplicon_size": 95,
+      "primer3_penalty": 0.2873,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-6.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 13000,
+        "end": 13500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ACGAGACCCGAAATCAGCTG",
+          "tm": 60.11,
+          "gc": 55.0,
+          "length": 20,
+          "start": 299
+        },
+        "reverse": {
+          "sequence": "TCAGCTCCGAGATCTTTGCG",
+          "tm": 60.18,
+          "gc": 55.0,
+          "length": 20,
+          "start": 403
+        },
+        "probe": {
+          "sequence": "AGGCCAACGGAGAGTGAGTCGGGTGCA",
+          "tm": 66.68,
+          "gc": 63.0,
+          "length": 27,
+          "start": 344
+        }
+      },
+      "amplicon_size": 105,
+      "primer3_penalty": 0.2877,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-6.1 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 27800,
+        "end": 28300,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GTTCTCGGAACTGCGACTCA",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 16
+        },
+        "reverse": {
+          "sequence": "CCGGCTCCACTCAATGTGTA",
+          "tm": 59.75,
+          "gc": 55.0,
+          "length": 20,
+          "start": 182
+        },
+        "probe": {
+          "sequence": "TCGCGGCCTTTGTGTTTGGGAGCGC",
+          "tm": 66.37,
+          "gc": 64.0,
+          "length": 25,
+          "start": 58
+        }
+      },
+      "amplicon_size": 167,
+      "primer3_penalty": 0.2886,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-6.1 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28400,
+        "end": 28900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AACAAAGGGCCGTGGATCAT",
+          "tm": 59.96,
+          "gc": 50.0,
+          "length": 20,
+          "start": 187
+        },
+        "reverse": {
+          "sequence": "GCCACCCAGATTGACTGCTA",
+          "tm": 59.75,
+          "gc": 55.0,
+          "length": 20,
+          "start": 276
+        },
+        "probe": {
+          "sequence": "TGATTGCCGCCGCGGTCGTGTTGGT",
+          "tm": 67.33,
+          "gc": 64.0,
+          "length": 25,
+          "start": 215
+        }
+      },
+      "amplicon_size": 90,
+      "primer3_penalty": 0.2927,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-9.8 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 12400,
+        "end": 12900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CGACGTCTTCCATCAGGTGT",
+          "tm": 59.76,
+          "gc": 55.0,
+          "length": 20,
+          "start": 172
+        },
+        "reverse": {
+          "sequence": "GCCTCGAGCTGTACCTTCTC",
+          "tm": 59.9,
+          "gc": 60.0,
+          "length": 20,
+          "start": 324
+        },
+        "probe": {
+          "sequence": "CGTGGTTGCAGCGCGCGAACGATCA",
+          "tm": 66.57,
+          "gc": 64.0,
+          "length": 25,
+          "start": 219
+        }
+      },
+      "amplicon_size": 153,
+      "primer3_penalty": 0.3455,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-6.4 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-11.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28400,
+        "end": 28900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GACAACAACAAAGGGCCGTG",
+          "tm": 60.25,
+          "gc": 55.0,
+          "length": 20,
+          "start": 181
+        },
+        "reverse": {
+          "sequence": "CTTCGACGTCGTCTGGGTAG",
+          "tm": 59.9,
+          "gc": 60.0,
+          "length": 20,
+          "start": 357
+        },
+        "probe": {
+          "sequence": "TGATTGCCGCCGCGGTCGTGTTGGT",
+          "tm": 67.33,
+          "gc": 64.0,
+          "length": 25,
+          "start": 215
+        }
+      },
+      "amplicon_size": 177,
+      "primer3_penalty": 0.3455,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "REV self-dimer \u0394G=-10.5 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-9.8 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 12400,
+        "end": 12900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CGACGTCTTCCATCAGGTGT",
+          "tm": 59.76,
+          "gc": 55.0,
+          "length": 20,
+          "start": 172
+        },
+        "reverse": {
+          "sequence": "GTTGAACACATCGACAGCGG",
+          "tm": 59.84,
+          "gc": 55.0,
+          "length": 20,
+          "start": 301
+        },
+        "probe": {
+          "sequence": "CGTGGTTGCAGCGCGCGAACGATCA",
+          "tm": 66.57,
+          "gc": 64.0,
+          "length": 25,
+          "start": 219
+        }
+      },
+      "amplicon_size": 130,
+      "primer3_penalty": 0.4077,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-6.4 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-11.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 12400,
+        "end": 12900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CGACGTCTTCCATCAGGTGT",
+          "tm": 59.76,
+          "gc": 55.0,
+          "length": 20,
+          "start": 172
+        },
+        "reverse": {
+          "sequence": "GGCGTTGAACACATCGACAG",
+          "tm": 59.84,
+          "gc": 55.0,
+          "length": 20,
+          "start": 304
+        },
+        "probe": {
+          "sequence": "CGTGGTTGCAGCGCGCGAACGATCA",
+          "tm": 66.57,
+          "gc": 64.0,
+          "length": 25,
+          "start": 219
+        }
+      },
+      "amplicon_size": 133,
+      "primer3_penalty": 0.4077,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-6.4 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-11.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 12400,
+        "end": 12900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GAGAAGGTACAGCTCGAGGC",
+          "tm": 59.9,
+          "gc": 60.0,
+          "length": 20,
+          "start": 305
+        },
+        "reverse": {
+          "sequence": "ACCTTTCCTCGCATTGTCGA",
+          "tm": 59.68,
+          "gc": 50.0,
+          "length": 20,
+          "start": 463
+        },
+        "probe": {
+          "sequence": "TCAGGGTTACAGCTGGCCACGCCCA",
+          "tm": 65.77,
+          "gc": 64.0,
+          "length": 25,
+          "start": 398
+        }
+      },
+      "amplicon_size": 159,
+      "primer3_penalty": 0.422,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "FWD self-dimer \u0394G=-6.7 kcal/mol (threshold -6.0)",
+        "PRB self-dimer \u0394G=-7.6 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 12400,
+        "end": 12900,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ACGTCTTCCATCAGGTGTGC",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 174
+        },
+        "reverse": {
+          "sequence": "GCCTCGAGCTGTACCTTCTC",
+          "tm": 59.9,
+          "gc": 60.0,
+          "length": 20,
+          "start": 324
+        },
+        "probe": {
+          "sequence": "CGTGGTTGCAGCGCGCGAACGATCA",
+          "tm": 66.57,
+          "gc": 64.0,
+          "length": 25,
+          "start": 219
+        }
+      },
+      "amplicon_size": 151,
+      "primer3_penalty": 0.4223,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-11.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28100,
+        "end": 28600,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ATCCGTTCGACAAAGACCCG",
+          "tm": 60.39,
+          "gc": 55.0,
+          "length": 20,
+          "start": 84
+        },
+        "reverse": {
+          "sequence": "GGGTCGTTTCCACCAGGATT",
+          "tm": 59.96,
+          "gc": 55.0,
+          "length": 20,
+          "start": 281
+        },
+        "probe": {
+          "sequence": "GAACCCCTTTGCACCGTGCCGACGT",
+          "tm": 65.64,
+          "gc": 64.0,
+          "length": 25,
+          "start": 189
+        }
+      },
+      "amplicon_size": 198,
+      "primer3_penalty": 0.4272,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-7.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28100,
+        "end": 28600,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "ACAAAGACCCGTATGCGTCC",
+          "tm": 60.39,
+          "gc": 55.0,
+          "length": 20,
+          "start": 93
+        },
+        "reverse": {
+          "sequence": "GGGTCGTTTCCACCAGGATT",
+          "tm": 59.96,
+          "gc": 55.0,
+          "length": 20,
+          "start": 281
+        },
+        "probe": {
+          "sequence": "GAACCCCTTTGCACCGTGCCGACGT",
+          "tm": 65.64,
+          "gc": 64.0,
+          "length": 25,
+          "start": 189
+        }
+      },
+      "amplicon_size": 189,
+      "primer3_penalty": 0.4285,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-7.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28100,
+        "end": 28600,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GCATCCGTTCGACAAAGACC",
+          "tm": 59.56,
+          "gc": 55.0,
+          "length": 20,
+          "start": 82
+        },
+        "reverse": {
+          "sequence": "GGGTCGTTTCCACCAGGATT",
+          "tm": 59.96,
+          "gc": 55.0,
+          "length": 20,
+          "start": 281
+        },
+        "probe": {
+          "sequence": "GAACCCCTTTGCACCGTGCCGACGT",
+          "tm": 65.64,
+          "gc": 64.0,
+          "length": 25,
+          "start": 189
+        }
+      },
+      "amplicon_size": 200,
+      "primer3_penalty": 0.4804,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-7.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NZ_CP144469.1",
+        "start": 28100,
+        "end": 28600,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "TCGACAAAGACCCGTATGCG",
+          "tm": 60.46,
+          "gc": 55.0,
+          "length": 20,
+          "start": 90
+        },
+        "reverse": {
+          "sequence": "GGGTCGTTTCCACCAGGATT",
+          "tm": 59.96,
+          "gc": 55.0,
+          "length": 20,
+          "start": 281
+        },
+        "probe": {
+          "sequence": "GAACCCCTTTGCACCGTGCCGACGT",
+          "tm": 65.64,
+          "gc": 64.0,
+          "length": 25,
+          "start": 189
+        }
+      },
+      "amplicon_size": 192,
+      "primer3_penalty": 0.4949,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "PRB self-dimer \u0394G=-7.3 kcal/mol (threshold -6.0)"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    }
+  ]
+}
