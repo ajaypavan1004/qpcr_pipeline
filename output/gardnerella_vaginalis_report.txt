@@ -1,0 +1,135 @@
+======================================================================
+  qPCR Primer/Probe Pipeline Report
+  Target: Gardnerella vaginalis
+  Generated: 2026-05-08 16:53 UTC
+======================================================================
+
+Total primer sets designed : 5
+
+──────────────────────────────────────────────────────────────────────
+  Rank #1  (P3 pair #2)   |  ROI HQ593667.1:1100-1600
+  ROI uniqueness score: 0.667
+
+  FWD  5'-TTGACGGCACTCCTTACGTG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-TACGCTGACGAACTAGTGGC-3'
+       Tm=59.8°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.2 kcal/mol
+
+  PRB  5'-CGTTCTCGCGCTTGGGAAGGCAATGGT-3'
+       Tm=65.4°C  GC=59.3%  len=27nt  self-dimer ΔG=-5.8 kcal/mol
+       ΔTm vs primers = +5.3°C
+
+  Amplicon size : 198 nt
+  P3 penalty    : 0.4889
+  BLAST overall : 
+    FWD top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04 #these are reclassified G. Vaginalis
+      ✓ [2] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✗ [3] CP187450.1 Gardnerella piotii strain GVAR737 chrom id=100.0% e=2.4e-04
+    REV top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✓ [2] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=2.4e-04
+      ✓ [3] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=95.0% e=5.9e-02
+    PRB top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=3.2e-08
+      ✓ [2] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=3.2e-08
+      ✓ [3] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=3.2e-08
+
+──────────────────────────────────────────────────────────────────────
+  Rank #2  (P3 pair #3)   |  ROI HQ593667.1:1100-1600
+  ROI uniqueness score: 0.667
+
+  FWD  5'-TTGACGGCACTCCTTACGTG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-CGGTCATATACTGTGCGCCA-3'
+       Tm=60.2°C  GC=55.0%  len=20nt  self-dimer ΔG=-5.9 kcal/mol
+
+  PRB  5'-CGTTCTCGCGCTTGGGAAGGCAATGGT-3'
+       Tm=65.4°C  GC=59.3%  len=27nt  self-dimer ΔG=-5.8 kcal/mol
+       ΔTm vs primers = +5.1°C
+
+  Amplicon size : 169 nt
+  P3 penalty    : 0.5685
+  BLAST overall : 
+    FWD top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✓ [2] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✗ [3] CP187450.1 Gardnerella piotii strain GVAR737 chrom id=100.0% e=2.4e-04
+    REV top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✓ [2] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=2.4e-04
+      ✓ [3] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=2.4e-04
+    PRB top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=3.2e-08
+      ✓ [2] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=3.2e-08
+      ✓ [3] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=3.2e-08
+
+──────────────────────────────────────────────────────────────────────
+  Rank #3  (P3 pair #4)   |  ROI HQ593667.1:1100-1600
+  ROI uniqueness score: 0.667
+
+  FWD  5'-TTGACGGCACTCCTTACGTG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt  self-dimer ΔG=-4.7 kcal/mol
+
+  REV  5'-ACGGTCATATACTGTGCGCC-3'
+       Tm=60.2°C  GC=55.0%  len=20nt  self-dimer ΔG=-5.9 kcal/mol
+
+  PRB  5'-CGTTCTCGCGCTTGGGAAGGCAATGGT-3'
+       Tm=65.4°C  GC=59.3%  len=27nt  self-dimer ΔG=-5.8 kcal/mol
+       ΔTm vs primers = +5.1°C
+
+  Amplicon size : 170 nt
+  P3 penalty    : 0.5685
+  BLAST overall : 
+    FWD top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✓ [2] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✗ [3] CP187450.1 Gardnerella piotii strain GVAR737 chrom id=100.0% e=2.4e-04
+    REV top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=2.4e-04
+      ✓ [2] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=2.4e-04
+      ✓ [3] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=2.4e-04
+    PRB top hits:
+      ✓ [1] NZ_CP058401.1 Gardnerella sp. DNF00476 chromosome, id=100.0% e=3.2e-08
+      ✓ [2] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=3.2e-08
+      ✓ [3] NZ_CP083174.1 Gardnerella vaginalis strain JNFY9 c id=100.0% e=3.2e-08
+
+──────────────────────────────────────────────────────────────────────
+  Rank #4  (P3 pair #0)    |  ROI HQ593667.1:1100-1600
+  ROI uniqueness score: 0.667
+
+  FWD  5'-GGATGAGTACGGCACCGAAA-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-7.2 kcal/mol
+
+  REV  5'-CGGTCATATACTGTGCGCCA-3'
+       Tm=60.2°C  GC=55.0%  len=20nt  self-dimer ΔG=-5.9 kcal/mol
+
+  PRB  5'-CGTTCTCGCGCTTGGGAAGGCAATGGT-3'
+       Tm=65.4°C  GC=59.3%  len=27nt  self-dimer ΔG=-5.8 kcal/mol
+       ΔTm vs primers = +5.2°C
+
+  Amplicon size : 189 nt
+  P3 penalty    : 0.3578
+  Constraint issues:
+    • FWD self-dimer ΔG=-7.2 kcal/mol (threshold -6.0)
+
+──────────────────────────────────────────────────────────────────────
+  Rank #5  (P3 pair #1)  |  ROI HQ593667.1:1100-1600
+  ROI uniqueness score: 0.667
+
+  FWD  5'-GGATGAGTACGGCACCGAAA-3'
+       Tm=60.1°C  GC=55.0%  len=20nt  self-dimer ΔG=-7.2 kcal/mol
+
+  REV  5'-ACGGTCATATACTGTGCGCC-3'
+       Tm=60.2°C  GC=55.0%  len=20nt  self-dimer ΔG=-5.9 kcal/mol
+
+  PRB  5'-CGTTCTCGCGCTTGGGAAGGCAATGGT-3'
+       Tm=65.4°C  GC=59.3%  len=27nt  self-dimer ΔG=-5.8 kcal/mol
+       ΔTm vs primers = +5.2°C
+
+  Amplicon size : 190 nt
+  P3 penalty    : 0.3578
+  Constraint issues:
+    • FWD self-dimer ΔG=-7.2 kcal/mol (threshold -6.0)

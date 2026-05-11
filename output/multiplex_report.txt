@@ -1,0 +1,68 @@
+======================================================================
+  qPCR Multiplex Compatibility Report
+======================================================================
+  Searched 3 combinations — showing best result
+  Thresholds: primers ≥ -6.0 kcal/mol | probes ≥ -9.0 kcal/mol (probes run at lower concentration — less critical)
+
+BEST COMBINATION — PANEL SUMMARY
+──────────────────────────────────────────────────────────────────────
+  FAM      Mycolicibacterium fortuitum  (Rank #1)
+           FWD  5'-ACGAGACCCGAAATCAGCTG-3'  Tm=60.1°C  ΔG=-6.0
+           REV  5'-ATGTCGGTCCTGTCATCACG-3'  Tm=59.8°C  ΔG=-2.0
+           PRB  5'-ACGACCAGCTCATGACGCGCCGGTT-3'  Tm=66.7°C  ΔG=-4.0
+           Amplicon=157nt  Mean primer Tm=60.0°C
+
+  SUN      Mycobacteroides chelonae  (Rank #1)
+           FWD  5'-GGGTGGTGACGAGTCTGAAG-3'  Tm=60.0°C  ΔG=-3.7
+           REV  5'-CGTGTCAGGACGCTCTAGAC-3'  Tm=59.9°C  ΔG=-4.2
+           PRB  5'-TCATCGCCGCGCCATGCCGTAGAAC-3'  Tm=65.6°C  ΔG=-5.8
+           Amplicon=154nt  Mean primer Tm=60.0°C
+
+TM SPREAD CHECK
+──────────────────────────────────────────────────────────────────────
+  Primer Tm range : 59.8°C – 60.1°C
+  Spread          : 0.3°C  (threshold ≤5.0°C)  ✓ PASS
+
+  FAM       FWD=60.1°C  REV=59.8°C  PRB=66.7°C
+  SUN       FWD=60.0°C  REV=59.9°C  PRB=65.6°C
+
+CROSS-DIMER MATRIX
+──────────────────────────────────────────────────────────────────────
+  Total pairs checked : 15
+  Passed              : 15
+  Failed              : 0  (primer-primer/primer-probe: 0 | probe-probe: 0)
+
+  ✓ No problematic cross-dimers detected.
+
+  Full matrix:
+  Pair A          × Pair B           ΔG (kcal/mol)  Threshold  Status
+  ───────────────   ───────────────  ─────────────  ─────────  ──────
+  FAM_PRB         × SUN_PRB             -7.50         -9.0     ✓
+  FAM_PRB         × SUN_REV             -5.92         -7.5     ✓
+  FAM_REV         × SUN_REV             -5.84         -6.0     ✓
+  FAM_PRB         × SUN_FWD             -4.94         -7.5     ✓
+  FAM_REV         × SUN_FWD             -4.87         -6.0     ✓
+  SUN_FWD         × SUN_PRB             -4.38         -7.5     ✓
+  FAM_FWD         × FAM_PRB             -4.20         -7.5     ✓
+  FAM_REV         × FAM_PRB             -3.98         -7.5     ✓
+  SUN_REV         × SUN_PRB             -3.90         -7.5     ✓
+  FAM_FWD         × SUN_FWD             -3.87         -6.0     ✓
+  FAM_REV         × SUN_PRB             -3.66         -7.5     ✓
+  FAM_FWD         × FAM_REV             -3.53         -6.0     ✓
+  SUN_FWD         × SUN_REV             -3.19         -6.0     ✓
+  FAM_FWD         × SUN_PRB             -3.01         -7.5     ✓
+  FAM_FWD         × SUN_REV             -2.80         -6.0     ✓
+
+MULTIPLEX COMPATIBILITY VERDICT
+──────────────────────────────────────────────────────────────────────
+  Tm spread         : ✓ PASS
+  Primer cross-dimers: ✓ PASS
+  Probe cross-dimers : ✓ PASS
+  Overall            : ✓ COMPATIBLE — safe to multiplex
+
+CHANNEL ASSIGNMENT
+──────────────────────────────────────────────────────────────────────
+  Channel    Organism                                 Amplicon
+  ────────── ──────────────────────────────────────── ────────
+  FAM        Mycolicibacterium fortuitum              157nt
+  SUN        Mycobacteroides chelonae                 154nt
